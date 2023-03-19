@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{ 
+    font-family:'Shadows Into Light';
+    background:#fff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#pagesheet {
+    /*background:rgb(240, 236, 228);*/
+    font-size:19px;
+    width:70%;
+    margin:auto;
+}
+#messages {
+    background: rgb(214,201,175);
+    background: linear-gradient(90deg, rgba(214,201,175) 0%, rgba(195,174,134) 10%, rgb(228, 204, 167) 100%);
+    width: 90%;
+    /*background: url("img/paper.jpg") no-repeat center;*/
+    background-size: cover;
+    margin: auto;
+    opacity: 0.8;
+    overflow:scroll;
+    height:800px;
+}
+.adminmsg {
+    color:rgb(167, 138, 138);
+    font-size: 0.8em;
+}
+.importantmsg {
+    font-weight:bold;
+}
+
+h1,h2 {
+    margin-left:5px;
+}
+
+.paragraphicon {
+    float:left;
+    margin-right:5px;
+    margin-left:3px;
+}
+
+.textBlock {
+    color:#000;
+    margin:2px;
+}
+hr {
+    width:50%;
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+footer{
+    text-align:center;
+    font-size:0.8em;
+}
+#menu {
+    text-align:right;
+    margin-right:10px;
+}
+#username {
+    width:100px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+#password {
+    width:100px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+
+textarea {
+    width: 90%;
+    height: 200px;
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+#contactemail {
+    width:200px;
+    resize:none;
+}
