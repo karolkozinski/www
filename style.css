@@ -23,10 +23,12 @@ body{
     opacity: 0.8;
     overflow:scroll;
     height:800px;
+    border-radius: 20px;
 }
 .adminmsg {
-    color:rgb(167, 138, 138);
+    color:rgb(233, 65, 65);
     font-size: 0.8em;
+    font-weight: bold;
 }
 .importantmsg {
     font-weight:bold;
